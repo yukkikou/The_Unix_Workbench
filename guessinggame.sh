@@ -2,6 +2,7 @@
 #File: guessinggame.sh
 
 number=$(ls -l| wc -l)
+number=$number-1
 #echo $number
 
 echo "please enter the number you guess"
